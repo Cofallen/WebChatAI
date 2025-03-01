@@ -22,5 +22,10 @@
 * 保存后，键入
 
 ```bash
+pip install -r  requirements.txt
+```
+ 
+
+```bash
 python3 app.py
 ```
