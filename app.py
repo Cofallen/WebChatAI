@@ -3,8 +3,13 @@ from openai import OpenAI
 import openai
 import requests
 import key
+import os
+
 
 app = Flask(__name__)
+
+if key.api_key == "sk-xxx":
+    key.api_key = os.getenv("API_KEY")
 
 client = OpenAI(
     api_key=key.api_key,
