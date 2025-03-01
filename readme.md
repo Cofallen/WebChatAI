@@ -29,3 +29,8 @@ pip install -r  requirements.txt
 ```bash
 python3 app.py
 ```
+
+端口号为5000，访问
+```bash
+http://127.0.0.1:5000
+```
